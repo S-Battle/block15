@@ -187,8 +187,8 @@ function flavorColorChooser(flavor){
 
 //functions in optimized order
 formatArray();
-froyoFlavors = buildFroyoObject();
 removeImproperEntries();
+froyoFlavors = buildFroyoObject();
 buildTable();
 
 //Object in console.log for view
